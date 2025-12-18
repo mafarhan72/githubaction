@@ -1,0 +1,13 @@
+name: Test Project
+on: push
+jobs:
+    tests:
+        runs-on: ubuntu-slim
+        steps:
+            - name: Get code
+              uses: actions/checkout@v6
+            - name: read content
+              run: |
+                cd githubaction
+                cat flow.txt 
+

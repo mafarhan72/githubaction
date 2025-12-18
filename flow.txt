@@ -1,0 +1,10 @@
+Workflows:
+    Job1:
+        step1: shell script or action
+        step2: shell script or action
+    Job2:
+        step1: shell script or action
+    Job3:
+        step1: shell script or action
+        step2: shell script or action
+        step3: shell script or action
