@@ -7,7 +7,5 @@ jobs:
             - name: Get code
               uses: actions/checkout@v6
             - name: read content
-              run: |
-                cd githubaction
-                cat flow.txt 
+              run: cat flow.txt 
 
